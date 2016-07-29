@@ -1,11 +1,11 @@
 {
     "name": "fill-grid",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "authors": [
         "JUNHAN LIN <john.lin0420@gmail.com>"
     ],
     "description": "An Angular directive generate brush canvas",
-    "main": "dist/fill-grid.min.js",
+    "main": "src/fill-grid.js",
     "keywords": [
         "angular",
         "fill",
