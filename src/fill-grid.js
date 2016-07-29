@@ -1,4 +1,4 @@
-angular.module('fillGrid')
+angular.module('fillGrid',[])
   .directive('fillGrid', function() {
     return {
       restrict: 'E',
