@@ -1,19 +1,4 @@
 angular.module('fillGrid')
-  .controller('FillGridCtrl', ['$scope', function($scope) {
-
-
-
-    $scope.init = function() {
-
-
-
-    };
-
-    $scope.init();
-
-    $scope.initMask = function(maskElement) {};
-
-  }])
   .directive('fillGrid', function() {
     return {
       restrict: 'E',
@@ -302,8 +287,7 @@ angular.module('fillGrid')
                     var cellIdx = cell[0].cellIndex;
                     cell.toggleClass("highlighted", ngModel.$viewValue.fillMap[rowIdx][cellIdx] === 1);
 
-                    if(ngModel.$viewValue.fillMap[rowIdx][cellIdx]===1)
-                    {
+                    if (ngModel.$viewValue.fillMap[rowIdx][cellIdx] === 1) {
                       highlightedCount++;
                     }
 
