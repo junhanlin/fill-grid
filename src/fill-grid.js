@@ -14,7 +14,7 @@ angular.module('fillGrid',[])
         disabled: '='
 
       },
-      templateUrl: 'template/fill-grid.html',
+      templateUrl: 'fill-grid.html',
       link: function(scope, element, attrs, ngModel) {
 
         scope.$watch(attrs.backImg, function(value) {
