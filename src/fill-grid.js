@@ -14,7 +14,13 @@ angular.module('fillGrid',[])
         disabled: '='
 
       },
-      templateUrl: 'fill-grid.html',
+      templateUrl:
+      '<div class="fill-grid-wrapper fill-grid-superfill">'+
+        '<div class="fill-grid-superfill" style="height:100%;width:100%;">'+
+          '<table cellpadding="0" cellspacing="0" class="touch-fill" style="z-index:3;width:100%;height:100%;"></table>'+
+          '<div class="fill-mask" ></div>'+
+        '</div>'+
+      '</div>',
       link: function(scope, element, attrs, ngModel) {
 
         scope.$watch(attrs.backImg, function(value) {
