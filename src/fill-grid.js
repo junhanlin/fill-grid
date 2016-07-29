@@ -14,7 +14,7 @@ angular.module('fillGrid',[])
         disabled: '='
 
       },
-      templateUrl:
+      template:
       '<div class="fill-grid-wrapper fill-grid-superfill">'+
         '<div class="fill-grid-superfill" style="height:100%;width:100%;">'+
           '<table cellpadding="0" cellspacing="0" class="touch-fill" style="z-index:3;width:100%;height:100%;"></table>'+
