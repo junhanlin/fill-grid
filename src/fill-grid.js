@@ -10,7 +10,8 @@ angular.module('fillGrid',[])
         row: '=',
         col: '=',
         radius: '=',
-        fillableMap: '='
+        fillableMap: '=',
+        disabled: '='
 
       },
       templateUrl: 'template/fill-grid.html',
@@ -175,6 +176,11 @@ angular.module('fillGrid',[])
         //   });
 
         $(element).find('.fill-mask').unbind('touchstart').bind('touchstart', function(e) {
+
+          if(attrs.disabled)
+          {
+            return;
+          }
 
           console.log('touch start');
           isTouchDown = true;
