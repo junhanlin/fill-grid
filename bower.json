@@ -8,18 +8,21 @@
     "main": "dist/fill-grid.min.js",
     "keywords": [
         "angular",
-        "directive",
-        "placeholder",
-        "dummy",
-        "images",
-        "faker"
+        "fill",
+        "grid",
+        "bursh",
+        "mask",
+        "scratch-off"
     ],
     "license": "MIT",
     "ignore": [
         "**/.*",
-        "node_modules",
-        "bower_components",
-        "test",
-        "tests"
-    ]
+        "bower_components"
+
+    ],
+    "dependencies": {
+      "jquery":"^2.1.4",
+      "angular": "^1.3.13"
+
+    }
 }
