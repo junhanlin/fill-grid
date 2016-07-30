@@ -1,28 +1,28 @@
 {
-    "name": "fill-grid",
-    "version": "1.0.8",
-    "authors": [
-        "JUNHAN LIN <john.lin0420@gmail.com>"
-    ],
-    "description": "An Angular directive generate brush canvas",
-    "main": "src/fill-grid.js",
-    "keywords": [
-        "angular",
-        "fill",
-        "grid",
-        "bursh",
-        "mask",
-        "scratch-off"
-    ],
-    "license": "MIT",
-    "ignore": [
-        "**/.*",
-        "bower_components"
+  "name": "fill-grid",
+  "version": "1.0.9",
+  "authors": [
+    "JUNHAN LIN <john.lin0420@gmail.com>"
+  ],
+  "description": "An Angular directive generate brush canvas",
+  "main": ["src/fill-grid.js", "src/fill-grid.css"],
+  "keywords": [
+    "angular",
+    "fill",
+    "grid",
+    "bursh",
+    "mask",
+    "scratch-off"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components"
 
-    ],
-    "dependencies": {
-      "jquery":"^2.1.4",
-      "angular": "^1.3.13"
+  ],
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "angular": "^1.3.13"
 
-    }
+  }
 }
