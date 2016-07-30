@@ -43,6 +43,8 @@ angular.module('fillGrid',[])
 
 
 
+
+
         var table = $(element).find('table');
         table.addClass('fill-table');
 
@@ -183,7 +185,8 @@ angular.module('fillGrid',[])
 
         $(element).find('.fill-mask').unbind('touchstart').bind('touchstart', function(e) {
 
-          if(attrs.disabled)
+
+          if(!!attrs.disabled)
           {
             return;
           }
